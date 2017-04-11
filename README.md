@@ -2,12 +2,12 @@
 ***
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
-To-Do
+1. To-Do
 ⋅⋅* Start button
 ⋅⋅* Pathfinder Sheet
 ⋅⋅* D&D Sheet
 ⋅⋅* Generic d6 sheet
 ⋅⋅* Sheet renderer
 
-Done:
+2. Done:
 * Basic code folders
