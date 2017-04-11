@@ -2,8 +2,8 @@
 ***
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
-Possible Mobile Style (Markup): 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+Possible Mobile Style (Mockup): 
+![alt text](https://github.com/MrsLSmith/RPGen/blob/master/New%20Mockup%201.png "Mobile Mockup Style")
 
 1. To-Do
 * Start button
