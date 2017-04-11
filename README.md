@@ -10,4 +10,4 @@
 * Sheet renderer
 
 2. Done:
-* Basic code folders
+* Basic code files & folders
