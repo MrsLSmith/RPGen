@@ -1,7 +1,8 @@
 # RPGen
 ***
 ### SRC for Role-Playing Game Full Character Sheet Generator
-1. To-Do
+
+To-Do
 ..* Start button
 ..* Pathfinder Sheet
 ..* D&D Sheet
