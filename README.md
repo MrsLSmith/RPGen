@@ -4,6 +4,6 @@
 
 CSS goals:
 
--centered stuff
--some sort of background? possibly image(s) or ambient colors
--font changes?
+* centered stuff
+* some sort of background? possibly image(s) or ambient colors
+* font changes?
