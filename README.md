@@ -7,7 +7,7 @@ Possible Mobile Style (Mockup):
 ![alt text](https://github.com/MrsLSmith/RPGen/blob/master/New%20Mockup%201.png "Mobile Mockup Style")
 
 1. To-Do
-* Start page
+* Start page styling
 * Pathfinder Sheet
 * D&D Sheet
 * Generic d6 sheet
@@ -15,3 +15,4 @@ Possible Mobile Style (Mockup):
 
 2. Done:
 * Basic code files & folders
+* Start page
