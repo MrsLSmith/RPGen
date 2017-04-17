@@ -1,5 +1,5 @@
-
 body.main {
-font-style: oblique;
-text-align: center; /* y u no work */
+  font-style: italic;
+  color: red;
+  text-align: center;
 }
