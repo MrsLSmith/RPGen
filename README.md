@@ -9,9 +9,11 @@ Possible Mobile Style (Mockup):
 1. To-Do
 * Start page styling
 * Pathfinder Sheet
+* Sheet renderer
+* .js addition
 * D&D Sheet
 * Generic d6 sheet
-* Sheet renderer
+
 
 2. Done:
 * Basic code files & folders
