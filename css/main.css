@@ -3,3 +3,6 @@ body.main {
   color: red;
   text-align: center;
 }
+
+/* for some reason, the CSS doesn't show up when directly downloaded from the ZIP project on Github. However, after loading this in on
+Atom, I tinkered a bit and got it to show up with the CSS above embedded with the HTML! ~Gabe */
