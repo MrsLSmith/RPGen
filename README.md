@@ -19,3 +19,5 @@ Possible Mobile Style (Mockup):
 * Basic code files & folders
 * Start page
 * .gitignore file
+* firebase:
+  *connect app to firebase
