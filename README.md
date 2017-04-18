@@ -18,3 +18,4 @@ Possible Mobile Style (Mockup):
 2. Done:
 * Basic code files & folders
 * Start page
+* .gitignore file
