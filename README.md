@@ -24,3 +24,5 @@ Possible Mobile Style (Mockup):
 * .gitignore file
 * firebase:
  1. connect app to firebase
+
+### public file is needed for firebase to find index.html and launch it
