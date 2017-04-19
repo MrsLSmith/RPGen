@@ -3,8 +3,10 @@
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
 CSS goals:
-* kewler background??? possibly image(s) or *ambient* colors
+* MOVE TEH BUTTON OUTSIDE OF THE BODY BOX!!!
 * convert for screen res and browser, etc.
+* kewler background??? possibly image(s) or *ambient* colors
+
 
 For Later:
 * GoogolAdSenzz?
