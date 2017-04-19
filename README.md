@@ -18,3 +18,4 @@ Possible Mobile Style (Mockup):
 2. Done:
 * Basic code files & folders
 * Start page
+* firebase server (requires npm install firebase-tools and firebase deploy)
