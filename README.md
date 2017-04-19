@@ -7,6 +7,9 @@ Possible Mobile Style (Mockup):
 ![alt text](https://github.com/MrsLSmith/RPGen/blob/master/New%20Mockup%201.png "Mobile Mockup Style")
 
 1. To-Do
+* firebase:
+ 2. email login
+ 3. character sheets backend (later in the development process)
 * Start page styling
 * Pathfinder Sheet
 * Sheet renderer
@@ -20,4 +23,4 @@ Possible Mobile Style (Mockup):
 * Start page
 * .gitignore file
 * firebase:
- ⋅⋅*connect app to firebase
+ 1. connect app to firebase
