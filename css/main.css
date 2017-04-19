@@ -9,7 +9,7 @@ body.main {
  position: relative;
  overflow: hidden;
  border-radius: 5px;
-}
+} /* ^^^ testing RPGen logo prjection? */
 
 html {
  background-color: #5d6f7a
