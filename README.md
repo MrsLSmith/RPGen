@@ -2,7 +2,7 @@
 ***
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
-Possible Mobile Style (Mockup): 
+Possible Mobile Style (Mockup):                                                Example of future mobile style:
 
 ![alt text](https://github.com/MrsLSmith/RPGen/blob/master/New%20Mockup%201.png "Mobile Mockup Style")![alt text](https://github.com/MrsLSmith/RPGen/blob/master/0.png "ExamplePrototype")
 
