@@ -1,8 +1,20 @@
 body.main {
-  font-style: italic;
-  color: red;
-  text-align: center;
-}
+ text-align: center;
+ font-style: italic;
+ box-sizing: border-box;
+ width: 90%;
+ max-width: 1080px;
+ padding: 30px 15px;
+ margin: 0 auto;
+ position: relative;
+ overflow: hidden;
+ border-radius: 5px;
+ box-shadow: 0 2px 0 0 #787b87;
+ background-color: white;
+ transition: 0.3s;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+} /* ^^^ testing RPGen logo prjection? */
 
-/* for some reason, the CSS doesn't show up when directly downloaded from the ZIP project on Github. However, after loading this in on
-Atom, I tinkered a bit and got it to show up with the CSS above embedded with the HTML! ~Gabe */
+html {
+ background-color: #668d99
+}
