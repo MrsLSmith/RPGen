@@ -10,10 +10,11 @@ body.main {
  overflow: hidden;
  border-radius: 5px;
  box-shadow: 0 2px 0 0 #2c6085;
+ background-color: #5d6f7a;
  transition: 0.3s;
 } /* ^^^ testing RPGen logo prjection? */
 
 html {
- background-color: #5d6f7a
+ background-color: #c51107
  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
