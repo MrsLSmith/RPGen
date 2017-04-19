@@ -9,7 +9,6 @@ Example of future mobile style (example image right):
 
 1. To-Do
 * Start page styling
-* Pathfinder Sheet
 * Sheet renderer
 * .js addition
 * D&D Sheet
@@ -20,3 +19,4 @@ Example of future mobile style (example image right):
 * Basic code files & folders
 * Start page
 * .gitignore file
+* Pathfinder Sheet
