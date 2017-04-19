@@ -3,7 +3,13 @@
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
 CSS goals:
-
-* centered stuff
 * some sort of background? possibly image(s) or ambient colors
-* font changes?
+* custom font
+* logo for 'RPGen'? ^get photoshop 4 this
+* convert for screen res and browser, etc.
+
+For Later:
+* GoogolAdSenzz?
+
+Done:
+* centered stuff
