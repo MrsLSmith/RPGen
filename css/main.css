@@ -1,6 +1,14 @@
 body.main {
  text-align: center;
  font-style: italic;
+ box-sizing: border-box;
+ width: 90%;
+ max-width: 1080px;
+ padding: 30px 15px;
+ margin: 0 auto;
+ position: relative;
+ overflow: hidden;
+ border-radius: 5px;
 }
 
 html {
