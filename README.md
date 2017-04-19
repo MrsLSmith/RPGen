@@ -20,4 +20,4 @@ Possible Mobile Style (Mockup):
 * Start page
 * .gitignore file
 * firebase:
-1. connect app to firebase
+ ⋅⋅*connect app to firebase
