@@ -10,3 +10,4 @@ Done:
 * Basic code files & folders
 * Start page
 * firebase server (requires npm install firebase-tools and firebase deploy)
+* firebase authentication
