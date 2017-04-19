@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPGen</title>
+    <link href="pathfinder.html">
+    <link rel="stylesheet" href="css/main.css">
+  </head>
+  <body class="main">
+    <h1>RPGen</h1>
+    <h3>A Free RPG Character Sheet Generator. Click the RPG button below to make a character!</h3>
+    <h4>Sign-in to Google to save characters.</h4>
+    <button id="pathfinderButton"><a href="pathfinder.html">Pathfinder</a></button>
+    <button onclick = "googleSignin()">Google Signin</button>
+    <button onclick = "googleSignout()">Google Signout</button>
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBR-KNrtI8FS_fKgUyTk_j99atiKGhDc6U",
+        authDomain: "icad-app.firebaseapp.com",
+        databaseURL: "https://icad-app.firebaseio.com",
+        projectId: "icad-app",
+        storageBucket: "icad-app.appspot.com",
+        messagingSenderId: "289325269994"
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="js/event.js"> </script>
+  </body>
+</html>
