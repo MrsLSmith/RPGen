@@ -11,3 +11,5 @@ Done:
 * Start page
 * firebase server (requires npm install firebase-tools and firebase deploy)
 * firebase authentication
+
+Here is the deployed app so far: https://icad-app.firebaseapp.com/
