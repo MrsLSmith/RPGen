@@ -5,7 +5,7 @@
 Possible mobile style (mockup image left):                                                
 Example of future mobile style (example image right):
 
-![alt text](https://github.com/MrsLSmith/RPGen/blob/master/New%20Mockup%201.png "Mobile Mockup Style")![alt text](https://github.com/MrsLSmith/RPGen/blob/master/0.png "ExamplePrototype")
+![alt text](https://github.com/MrsLSmith/RPGen/blob/master/New%20Mockup%201.png "Mobile Mockup Style")![](http://imgur.com/a/RqA0c)
 
 1. To-Do
 * Start page styling
