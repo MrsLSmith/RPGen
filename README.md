@@ -4,7 +4,7 @@
 
 
 Prototype Example v.0.0.x :
-![alt text](https://github.com/MrsLSmith/RPGen/blob/master/New%20Mockup%201.png "Mobile Mockup Style")![](http://i.imgur.com/kGfWTsq.gif)
+![](http://i.imgur.com/kGfWTsq.gif)
 
 1. To-Do
 * Start page styling
