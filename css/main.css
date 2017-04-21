@@ -1,5 +1,7 @@
-body.main {
+section.y {
+	align: center;
  text-align: center;
+  text-align: center;
  font-style: italic;
  box-sizing: border-box;
  width: 90%;
@@ -13,7 +15,16 @@ body.main {
  background-color: white;
  transition: 0.3s;
  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+section.pain {
+padding-top: 1em;
+ text-align: center;
+ font-style: italic;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 } /* logo is aliiiive */
+
+
 
 html {
  background-color: #668d99
