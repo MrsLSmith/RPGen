@@ -7,8 +7,8 @@
   </head>
   <body>
     <h1>Pathfinder</h1>
-    <h3>Click 'Start!' to generate a random Pathfinder character, or enter the information yourself!</h3>
-    <button id="gen">Start!</button>
+    <h3>Click the button below to generate a random Pathfinder character, or enter the information yourself!</h3>
+    <button id="gen">Generate Character</button>
     <div id="basicInfo">
       <form>
         Character Name: <input type="text" id="name" name="name"><br>
@@ -74,10 +74,10 @@
             Strength
           </td>
           <td>
-            <input type="number"></input>
+            <input type="number" value="0"></input>
           </td>
           <td>
-            <input id="strMod" type="number"></input>
+            <input id="strMod" type="number" value="0"></input>
           </td>
         </tr>
         <tr>
@@ -85,10 +85,10 @@
             Dexterity
           </td>
           <td>
-            <input type="number"></input>
+            <input type="number" value="0"></input>
           </td>
           <td>
-            <input id="dexMod" type="number"></input>
+            <input id="dexMod" type="number" value="0"></input>
           </td>
         </tr>
         <tr>
@@ -96,10 +96,10 @@
             Constitution
           </td>
           <td>
-            <input type="number"></input>
+            <input type="number" value="0"></input>
           </td>
           <td>
-            <input id="conMod" type="number"></input>
+            <input id="conMod" type="number" value="0"></input>
           </td>
         </tr>
         <tr>
@@ -107,10 +107,10 @@
             Intelligence
           </td>
           <td>
-            <input type="number"></input>
+            <input type="number" value="0"></input>
           </td>
           <td>
-            <input id="intMod" type="number"></input>
+            <input id="intMod" type="number" value="0"></input>
           </td>
         </tr>
         <tr>
@@ -118,10 +118,10 @@
             Wisdom
           </td>
           <td>
-            <input type="number"></input>
+            <input type="number" value="0"></input>
           </td>
           <td>
-            <input id="wisMod" type="number"></input>
+            <input id="wisMod" type="number" value="0"></input>
           </td>
         </tr>
         <tr>
@@ -129,10 +129,10 @@
             Charisma
           </td>
           <td>
-            <input type="number"></input>
+            <input type="number" value="0"></input>
           </td>
           <td>
-            <input id="chaMod" type="number"></input>
+            <input id="chaMod" type="number" value="0"></input>
           </td>
         </tr>
       </table>
@@ -223,5 +223,6 @@
       <p id="feat">This is where the regular, single feat goes (second feat if human)</p>
     </div>
     <button id="save">Save to Google Account</button>
+    <script src="js/pathfinder.js"></script>
   </body>
 </html>
