@@ -3,7 +3,7 @@
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
 
-Prototype Example v.0.0.x :
+Prototype Chi 0.0.x :
 ![](http://i.imgur.com/kGfWTsq.gif)
 
 1. To-Do
