@@ -19,3 +19,8 @@ Prototype Chi 0.0.x:
 * Start page
 * .gitignore file
 * Pathfinder Sheet
+
+
+
+Background Image Credit:
+"http://www.spitzer.caltech.edu/uploaded_files/graphics/fullscreen_graphics/0009/3130/sig06-010_Sm.jpg Courtesy NASA/JPL-Caltech."
