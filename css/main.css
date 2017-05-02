@@ -29,8 +29,8 @@ html {
  background-image: url("https://c1.staticflickr.com/9/8742/16368789524_f4f86b5b59_b.jpg");
  background-repeat: no-repeat;
  background-position: center;
- -webkit-background-size: stretch;
- -moz-background-size: stretch;
- -o-background-size: stretch;
- background-size: stretch;
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
 }
