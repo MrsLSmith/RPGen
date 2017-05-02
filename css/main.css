@@ -25,5 +25,5 @@ padding-top: 1em;
 } 
 
 html {
- background-color: #668d99
+ background-image: img("background.jpg");
 }
