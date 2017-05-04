@@ -3,7 +3,7 @@
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
 
-Prototype Psi 0.1.1:
+Build Version Psi 0.1.1:
 ![](http://i.imgur.com/sXzxWWR.gif)
 
 1. To-Do
