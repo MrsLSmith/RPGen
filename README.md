@@ -7,7 +7,6 @@ Prototype Psi 0.1.1:
 ![](http://i.imgur.com/sXzxWWR.gif)
 
 1. To-Do
-* Start page styling
 * Sheet renderer
 * .js addition
 * D&D Sheet
@@ -15,6 +14,7 @@ Prototype Psi 0.1.1:
 
 
 2. Done:
+* Basic page styling
 * Basic code files & folders
 * Start page
 * .gitignore file
