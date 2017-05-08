@@ -11,7 +11,7 @@ Build Version Psi 0.1.1:
 * .js addition
 * D&D Sheet
 * Generic d6 sheet
-
+* functioning MVP (Minimum Viable Product)
 
 2. Done:
 * Basic page styling
