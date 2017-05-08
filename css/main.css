@@ -18,3 +18,11 @@ body.main {
 html {
  background-color: #668d99
 }
+
+#raceTraits p {
+  display: none;
+}
+
+#raceTraits #displayed {
+  display: block;
+}
