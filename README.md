@@ -3,8 +3,8 @@
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
 
-Build Version Psi 0.1.1:
-![](http://i.imgur.com/sXzxWWR.gif)
+Build Version Sigma 0.1.2:
+![](http://i.imgur.com/gpZq2u2.gif)
 
 1. To-Do
 * Sheet renderer
