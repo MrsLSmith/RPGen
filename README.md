@@ -9,7 +9,6 @@ Build Version Sigma 0.1.2:
 
 1. To-Do
 * Sheet renderer
-* .js addition
 * D&D Sheet
 * Generic d6 sheet
 
@@ -20,6 +19,7 @@ Build Version Sigma 0.1.2:
 * .gitignore file
 * Pathfinder Sheet
 * functioning MVP (Minimum Viable Product)
+* .js addition
 
 ***
 
