@@ -3,7 +3,7 @@
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
 
-Build Version Sigma 0.1.4:
+Build Version Lambda 0.1.4:
 
 ![](http://i.imgur.com/1bp2Li0.gif)
 
