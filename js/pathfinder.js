@@ -17,15 +17,23 @@ const wisMod = document.getElementById('wisMod');
 const cha = document.getElementById('cha');
 const chaMod = document.getElementById('chaMod');
 
-//Racial traits
-const traits = document.getElementsByClassName('traits');
-const dwa = document.getElementById('1');
-const elf = document.getElementById('2');
-const gnm = document.getElementById('3');
-const hel = document.getElementById('4');
-const hor = document.getElementById('5');
-const hlf = document.getElementById('6');
-const hum = document.getElementById('7');
+//Class info elements
+  //Hit points
+  const hp = document.getElementById('hitPoints');
+  //Fortitude Save
+  const fortClass = document.getElementById('fortClass'); //fortitude save based on class
+  const fortMod = document.getElementById('fortMod'); //fortitude modifier based on con
+  const fortTotal = document.getElementById('fortTotal'); //fortitude save total
+
+  //Reflex Save
+  const refClass = document.getElementById('refClass'); //reflex save based on class
+  const refMod = document.getElementById('refMod'); //reflex modifier based on dex
+  const refTotal = document.getElementById('refTotal'); //reflex save total
+
+  //Will Save
+  const wilClass = document.getElementById('wilClass'); //will save based on class
+  const wilMod = document.getElementById('wilMod'); //will modifier based on wis
+  const wilTotal = document.getElementById('wilTotal'); //will save total
 
 var character = {
   name: "",
@@ -47,10 +55,7 @@ var character = {
   attributes: [0, 0, 0, 0, 0, 0],
   modifiers: [0, 0, 0, 0, 0, 0],
 
-  racialTraits: [],     //determined based on class
   classInfo: "",        //determined based on class
-  armorWeaponProf: "",  //determined based on class
-  feats: ""             //select based on class
 };
 
 genButton.addEventListener('click', generate);
@@ -88,6 +93,9 @@ function generate (){
 
   //determine race trait
   determineRaceTrait(raceNum);
+
+  //determine class info
+  determineClassInfo(classNum);
 }
 
 function rand (max){
@@ -166,4 +174,41 @@ function determineRaceTrait (race) {
   traitToDisplay.id = 'displayed';
 
 
+}
+
+function determineClassInfo (classNum) {
+  var classInfo2DArray = [
+    /*Format: fortitude, reflex, will, max hit die (HP = max hit die + constitution modifier, done outside array)*/
+    /*Barbarian*/[2, 0, 0, 12], /*0*/
+    /*Bard*/[0, 2, 2, 8], /*1*/
+    /*Cleric*/[2, 0, 2, 8], /*2*/
+    /*Druid*/[2, 0, 2, 8], /*3*/
+    /*Fighter*/[2, 0, 0, 10], /*4*/
+    /*Monk*/[2, 2, 2, 8], /*5*/
+    /*Paladin*/[2, 0, 2, 10], /*6*/
+    /*Ranger*/[2, 2, 0, 10], /*7*/
+    /*Rogue*/[0, 2, 0, 8], /*8*/
+    /*Sorcerer*/[0, 0, 2, 6], /*9*/
+    /*Wizard*/[0, 0, 2, 6] /*10*/
+  ];
+
+  //Hit points
+  hp.textContent = parseInt(classInfo2DArray[classNum-1][3]) + parseInt(conMod.value);
+  //fortitude
+  fortClass.textContent = classInfo2DArray[classNum-1][0];
+  fortMod.textContent = conMod.value;
+  var fortTotalNum = parseInt(conMod.value) + parseInt(classInfo2DArray[classNum-1][0]);
+  fortTotal.textContent = fortTotalNum;
+
+  //reflex
+  refClass.textContent = classInfo2DArray[classNum-1][1];
+  refMod.textContent = dexMod.value;
+  var refTotalNum = parseInt(dexMod.value) + parseInt(classInfo2DArray[classNum-1][1]);
+  refTotal.textContent = refTotalNum;
+
+  //will
+  wilClass.textContent = classInfo2DArray[classNum-1][2];
+  wilMod.textContent = wisMod.value;
+  var wilTotalNum = parseInt(wisMod.value) + parseInt(classInfo2DArray[classNum-1][2]);
+  wilTotal.textContent = wilTotalNum
 }

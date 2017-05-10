@@ -2,6 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>Pathfinder Generator</title>
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -156,7 +157,7 @@
     <div id="classInfo">
       <h3>Class Information</h3>
       <h5>Hit Points:</h5>
-      <p id="hitPoints">42</p>
+      <p id="hitPoints">--</p>
       <table>
         <th>
           Save
@@ -172,54 +173,47 @@
         </th>
         <tr>
           <td>
-            Fortitude Save:
+            Fortitude Save:<!--Mod based on con-->
           </td>
           <td>
-            <p>2</p>
+            <p id="fortClass">--</p>
           </td>
           <td>
-            <p>1</p>
+            <p id="fortMod">--</p>
           </td>
           <td>
-            <p>3</p>
-          </td>
-        </tr>
-        <tr>
-          <td>
-            Reflex Save:
-          </td>
-          <td>
-            <p>9</p>
-          </td>
-          <td>
-            <p>2</p>
-          </td>
-          <td>
-            <p>11</p>
+            <p id="fortTotal">--</p>
           </td>
         </tr>
         <tr>
           <td>
-            Will Save:
+            Reflex Save: <!--Mod based on dex-->
           </td>
           <td>
-            <p>3</p>
+            <p id="refClass">--</p>
           </td>
           <td>
-            <p>2</p>
+            <p id="refMod">--</p>
           </td>
           <td>
-            <p>5</p>
+            <p id="refTotal">--</p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            Will Save: <!--Mod based on wis-->
+          </td>
+          <td>
+            <p id="wilClass">--</p>
+          </td>
+          <td>
+            <p id="wilMod">--</p>
+          </td>
+          <td>
+            <p id="wilTotal">--</p>
           </td>
         </tr>
       </table>
-    </div>
-
-    <!--Display one feat based on class, humans get one extra feat for a total of 2-->
-    <div id="feats">
-      <h3>Feats</h3>
-      <p id="humanExtraFeat">This is where we would add the extra feat if character is human</p>
-      <p id="feat">This is where the regular, single feat goes (second feat if human)</p>
     </div>
     <button id="save">Save to Google Account</button>
     <script src="js/pathfinder.js"></script>
