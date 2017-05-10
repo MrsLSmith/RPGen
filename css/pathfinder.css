@@ -6,3 +6,11 @@ background: #668d99;
 table input{
   width: 100%;
 }
+
+#raceTraits p {
+  display: none;
+}
+
+#raceTraits #displayed {
+  display: block;
+}
