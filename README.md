@@ -12,7 +12,6 @@ Build Version Sigma 0.1.2:
 * .js addition
 * D&D Sheet
 * Generic d6 sheet
-* functioning MVP (Minimum Viable Product)
 
 2. Done:
 * Basic page styling
@@ -20,6 +19,7 @@ Build Version Sigma 0.1.2:
 * Start page
 * .gitignore file
 * Pathfinder Sheet
+* functioning MVP (Minimum Viable Product)
 
 ***
 
