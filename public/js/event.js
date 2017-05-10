@@ -1,5 +1,5 @@
-
 var provider = new firebase.auth.GoogleAuthProvider();
+var database = firebase.database();
 
 function googleSignin() {
    firebase.auth()
@@ -28,3 +28,9 @@ function googleSignout() {
       console.log('Signout Failed')
    });
 }
+
+function save() {
+  var firebaseRef = firebase.database().ref();
+  firebaseRef.push().set({link: "none"});
+}
+/* =====storage==== */
