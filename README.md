@@ -3,9 +3,9 @@
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
 
-Build Version Sigma 0.1.2:
+Build Version Sigma 0.1.4:
 
-![](http://i.imgur.com/gpZq2u2.gif)
+![](http://i.imgur.com/1bp2Li0.gif)
 
 1. To-Do
 * Sheet renderer
