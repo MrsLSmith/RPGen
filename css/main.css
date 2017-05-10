@@ -29,3 +29,11 @@ html {
  -o-background-size: 300%;
  background-size: 300%;
 }
+
+#raceTraits p {
+  display: none;
+}
+
+#raceTraits #displayed {
+  display: block;
+}
