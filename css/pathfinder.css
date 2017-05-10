@@ -1,4 +1,8 @@
 body {
-font-family: 'Rubik', sans-serif;
-background-color: #668d99;
+font-family: "Rubik", Helvetica, Arial, sans-serif;
+background: #668d99;
+}
+
+table input{
+  width: 100%;
 }
