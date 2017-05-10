@@ -1,6 +1,6 @@
-# RPGen
+# Product Sans isn't allowed D:
 ***
-### SRC for Role-Playing Game Full Character Sheet Generator
+### https://fonts.google.com/license/productsans
 
 
 Build Version Sigma 0.1.2:

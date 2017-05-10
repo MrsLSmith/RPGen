@@ -1,7 +1,6 @@
 section.y {
  align: center;
  text-align: center;
- font-style: italic;
  box-sizing: border-box;
  width: 90%;
  max-width: 1080px;
@@ -13,14 +12,13 @@ section.y {
  box-shadow: 0 2px 0 0 #787b87;
  background-color: white;
  transition: 0.3s;
- font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-family: 'Product Sans', Arial, sans-serif;
 }
 
 section.pain {
 padding-top: 1em;
  text-align: center;
- font-style: italic;
- font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-family: 'Product Sans', Arial, sans-serif;
 } 
 
 html {
