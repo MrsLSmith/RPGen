@@ -1,3 +1,26 @@
+var character = {
+  name: "",
+  gender: "", //random number, 1 or 2
+  race: "", //random number, only choose from canon races
+  charClass: "", //random number, only choose from canon classes
+  alignment: "", //two random numbers determines alignment based on the following:
+  /*
+                      1       2       3
+                    Chaotic Neutral Lawful
+                    _______________________
+                   |   CG      NG     LG  |  Good     1
+                   |   CN      NN     LN  |  Neutral  2
+                   |   CE      NE     LE  |  Evil     3
+                   |______________________|
+  */
+
+  //          str, dex, con, int, wis, cha
+  attributes: [0, 0, 0, 0, 0, 0],
+  modifiers: [0, 0, 0, 0, 0, 0],
+
+  classInfo: "",        //determined based on class
+};
+
 const genButton = document.getElementById("gen");
 const race = document.getElementById("race");
 const classes = document.getElementById('class');
@@ -35,28 +58,6 @@ const chaMod = document.getElementById('chaMod');
   const wilMod = document.getElementById('wilMod'); //will modifier based on wis
   const wilTotal = document.getElementById('wilTotal'); //will save total
 
-var character = {
-  name: "",
-  gender: "", //random number, 1 or 2
-  race: "", //random number, only choose from canon races
-  charClass: "", //random number, only choose from canon classes
-  alignment: "", //two random numbers determines alignment based on the following:
-  /*
-                      1       2       3
-                    Chaotic Neutral Lawful
-                    _______________________
-                   |   CG      NG     LG  |  Good     1
-                   |   CN      NN     LN  |  Neutral  2
-                   |   CE      NE     LE  |  Evil     3
-                   |______________________|
-  */
-
-  //          str, dex, con, int, wis, cha
-  attributes: [0, 0, 0, 0, 0, 0],
-  modifiers: [0, 0, 0, 0, 0, 0],
-
-  classInfo: "",        //determined based on class
-};
 
 genButton.addEventListener('click', generate);
 
