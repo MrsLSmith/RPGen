@@ -1,7 +1,5 @@
 section.y {
- align: center;
  text-align: center;
- font-style: italic;
  box-sizing: border-box;
  width: 90%;
  max-width: 1080px;
@@ -13,22 +11,29 @@ section.y {
  box-shadow: 0 2px 0 0 #787b87;
  background-color: white;
  transition: 0.3s;
- font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-family: 'Varela Round', sans-serif; /* NEW new font working :D */
 }
 
 section.pain {
 padding-top: 1em;
  text-align: center;
- font-style: italic;
- font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font-family: 'Rubik', sans-serif;
 } 
 
 html {
  background-color: #668d99;
  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/87/LH_95.jpg");
-background-position: center;
+ background-position: center;
  -webkit-background-size: 300%;
  -moz-background-size: 300%;
  -o-background-size: 300%;
  background-size: 300%;
+}
+
+#raceTraits p {
+  display: none;
+}
+
+#raceTraits #displayed {
+  display: block;
 }
