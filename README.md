@@ -2,7 +2,7 @@
 ***
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
-Here is the deployed app so far: tiny.cc/rpgen
+Here is the deployed app so far: https://tiny.cc/rpgen
 
 Build Version Lambda 0.1.4:
 
