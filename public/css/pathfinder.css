@@ -2,3 +2,36 @@ html {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 background-color: #668d99;
 }
+
+body {
+font-family: "Rubik", Helvetica, Arial, sans-serif;
+background: #668d99;
+margin-left: 5%;
+}
+
+#gen {
+  margin-bottom: 1em;
+}
+
+#raceTraits p {
+  display: none;
+}
+
+#raceTraits #displayed {
+  display: block;
+  font-size: 1em;
+}
+
+table input{
+  width: 100%;
+}
+
+#title {
+  text-align: center;
+}
+
+@media screen and (min-width: 530px){
+  #title {
+    text-align: left;
+  }
+}
