@@ -1,3 +1,20 @@
+body.main {
+ text-align: center;
+ font-style: italic;
+ box-sizing: border-box;
+ width: 90%;
+ max-width: 1080px;
+ padding: 30px 15px;
+ margin: 0 auto;
+ position: relative;
+ overflow: hidden;
+ border-radius: 5px;
+ box-shadow: 0 2px 0 0 #787b87;
+ background-color: white;
+ transition: 0.3s;
+ font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
 section.y {
  text-align: center;
  box-sizing: border-box;
