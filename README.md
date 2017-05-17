@@ -2,7 +2,7 @@
 ***
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
-Here is the deployed app so far: https://icad-app.firebaseapp.com/
+Here is the deployed app so far: https://goo.gl/n92FYi
 
 Build Version Lambda 0.1.4:
 
