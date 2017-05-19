@@ -93,7 +93,8 @@ function pdf(char) {
     doc.text(80, 90, 'Ability Score', null, null, 'center');
       doc.text(120, 90, 'Ability Modifier', null, null, 'center');
   doc.text(40, 100, 'Strength', null, null, 'center');
-
+    doc.text(80, 100, char.attributes[1], null, null, 'center');
+      doc.text(120, 100, char.modifiers[1], null, null, 'center');
   doc.text(40, 110, 'Dexterity', null, null, 'center');
 
   doc.text(40, 120, 'Constitution', null, null, 'center');
