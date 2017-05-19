@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.4/jspdf.debug.js"></script>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link href="https://fonts.googleapis.com/css?family=Rubik:900" rel="stylesheet">
     <title>Pathfinder Generator</title>
@@ -59,7 +59,7 @@
         Should not let user customize modifiers because modifiers are based on the ability score alone-->
 
     <!--Race also affects ability scores-->
-    <div id="abilityScoresAndMods">
+    <div id="doAbilityScores">
       <table>
         <tr>
           <th>
@@ -217,7 +217,22 @@
         </tr>
       </table>
     </div>
-    <button id="save">Save to Google Account</button>
+    <button onclick="save()">Save to Google Account</button>
+    <script src="https://www.gstatic.com/firebasejs/3.8.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyBR-KNrtI8FS_fKgUyTk_j99atiKGhDc6U",
+        authDomain: "icad-app.firebaseapp.com",
+        databaseURL: "https://icad-app.firebaseio.com",
+        projectId: "icad-app",
+        storageBucket: "icad-app.appspot.com",
+        messagingSenderId: "289325269994"
+      };
+      firebase.initializeApp(config);
+    </script>
+
+    <script src="js/event.js"></script>
     <script src="js/pathfinder.js"></script>
   </body>
 </html>
