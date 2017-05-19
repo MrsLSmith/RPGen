@@ -59,7 +59,7 @@
         Should not let user customize modifiers because modifiers are based on the ability score alone-->
 
     <!--Race also affects ability scores-->
-    <div id="doAbilityScores">
+        <div id="abilityScoresAndMods">
       <table>
         <tr>
           <th>
@@ -77,10 +77,10 @@
             Strength
           </td>
           <td>
-            <input id="str" type="number" value="0"></input>
+            <input id="str" type="number" value="0" min="3" max="18"></input>
           </td>
           <td>
-            <input id="strMod" type="number" value="0"></input>
+            <p id="strMod">--</p>
           </td>
         </tr>
         <tr>
@@ -88,10 +88,10 @@
             Dexterity
           </td>
           <td>
-            <input id="dex" type="number" value="0"></input>
+            <input id="dex" type="number" value="0" min="3" max="18"></input>
           </td>
           <td>
-            <input id="dexMod" type="number" value="0"></input>
+            <p id="dexMod">--</p>
           </td>
         </tr>
         <tr>
@@ -99,10 +99,10 @@
             Constitution
           </td>
           <td>
-            <input id="con" type="number" value="0"></input>
+            <input id="con" type="number" value="0" min="3" max="18"></input>
           </td>
           <td>
-            <input id="conMod" type="number" value="0"></input>
+            <p id="conMod">--</p>
           </td>
         </tr>
         <tr>
@@ -110,10 +110,10 @@
             Intelligence
           </td>
           <td>
-            <input id="int" type="number" value="0"></input>
+            <input id="int" type="number" value="0" min="3" max="18"></input>
           </td>
           <td>
-            <input id="intMod" type="number" value="0"></input>
+            <p id="intMod">--</p>
           </td>
         </tr>
         <tr>
@@ -121,10 +121,10 @@
             Wisdom
           </td>
           <td>
-            <input id="wis" type="number" value="0"></input>
+            <input id="wis" type="number" value="0" min="3" max="18"></input>
           </td>
           <td>
-            <input id="wisMod" type="number" value="0"></input>
+            <p id="wisMod">--</p>
           </td>
         </tr>
         <tr>
@@ -132,10 +132,10 @@
             Charisma
           </td>
           <td>
-            <input id="cha" type="number" value="0"></input>
+            <input id="cha" type="number" value="0" min="3" max="18"></input>
           </td>
           <td>
-            <input id="chaMod" type="number" value="0"></input>
+            <p id="chaMod">--</p>
           </td>
         </tr>
       </table>
