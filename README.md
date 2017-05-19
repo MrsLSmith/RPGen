@@ -9,7 +9,6 @@ Build Version Eta 0.1.8:
 ![](http://i.imgur.com/R9r9Q8B.gif)
 
 1. To-Do
-* Sheet renderer
 * D&D Sheet
 * Generic d6 sheet
 
@@ -21,6 +20,7 @@ Build Version Eta 0.1.8:
 * Pathfinder Sheet
 * functioning MVP (Minimum Viable Product)
 * .js addition
+* Sheet renderer
 
 ***
 
