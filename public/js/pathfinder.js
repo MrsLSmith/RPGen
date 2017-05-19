@@ -216,7 +216,7 @@ function determineClassInfo (classNum) {
     /*Wizard*/[0, 0, 2, 6] /*10*/
   ];
 
-  //Hit points
+  //Hit points 
   hp.textContent = parseInt(classInfo2DArray[classNum-1][3]) + parseInt(conMod.value);
   //fortitude
   fortClass.textContent = classInfo2DArray[classNum-1][0];
