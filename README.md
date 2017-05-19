@@ -4,9 +4,9 @@
 
 Here is the deployed app so far: https://tiny.cc/rpgen
 
-Build Version Lambda 0.1.4:
+Build Version Eta 0.1.8:
 
-![](http://i.imgur.com/1bp2Li0.gif)
+![](http://i.imgur.com/R9r9Q8B.gif)
 
 1. To-Do
 * Sheet renderer
