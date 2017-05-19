@@ -71,18 +71,84 @@ classes.addEventListener('change', function() {
 
 abilityButton.addEventListener('click', function() {
   str.value = abilityScore();
-  strMod.value = modifier(str.value);
+  strMod.innerHTML = modifier(str.value);
   dex.value = abilityScore();
-  dexMod.value = modifier(dex.value);
+  dexMod.innerHTML = modifier(dex.value);
   con.value = abilityScore();
-  conMod.value = modifier(con.value);
+  conMod.innerHTML = modifier(con.value);
   cha.value = abilityScore();
-  chaMod.value = modifier(cha.value);
+  chaMod.innerHTML = modifier(cha.value);
   intelligence.value = abilityScore();
-  intMod.value = modifier(intelligence.value);
+  intMod.innerHTML = modifier(intelligence.value);
   wis.value = abilityScore();
-  wisMod.value = modifier(wis.value);
+  wisMod.innerHTML = modifier(wis.value);
 });
+
+str.addEventListener('click', function() {
+  strMod.innerHTML = modifier(str.value);
+})
+
+str.addEventListener('change', function() {
+  if(str.value > 18){
+    str.value = 18;
+  }
+  strMod.innerHTML = modifier(str.value);
+})
+
+dex.addEventListener('click', function() {
+  dexMod.innerHTML = modifier(dex.value);
+})
+
+dex.addEventListener('change', function() {
+  if(dex.value > 18){
+    dex.value = 18;
+  }
+  dexMod.innerHTML = modifier(dex.value);
+})
+
+con.addEventListener('click', function() {
+  conMod.innerHTML = modifier(con.value);
+})
+
+con.addEventListener('change', function() {
+  if(con.value > 18){
+    con.value = 18;
+  }
+  conMod.innerHTML = modifier(con.value);
+})
+
+intelligence.addEventListener('click', function() {
+  intMod.innerHTML = modifier(intelligence.value);
+})
+
+intelligence.addEventListener('change', function() {
+  if(intelligence.value > 18){
+    intelligence.value = 18;
+  }
+  intMod.innerHTML = modifier(intelligence.value);
+})
+
+wis.addEventListener('click', function() {
+  wisMod.innerHTML = modifier(wis.value);
+})
+
+wis.addEventListener('change', function() {
+  if(wis.value > 18){
+    wis.value = 18;
+  }
+  wisMod.innerHTML = modifier(wis.value);
+})
+
+cha.addEventListener('click', function() {
+  chaMod.innerHTML = modifier(cha.value);
+})
+
+cha.addEventListener('change', function() {
+  if(cha.value > 18){
+    cha.value = 18;
+  }
+  chaMod.innerHTML = modifier(cha.value);
+})
 
 function generate (){
 
@@ -103,17 +169,17 @@ function generate (){
   //roll 4 "dice", add up the top 3 dice to get total ability score
   //modifier is determined by ability score
   str.value = abilityScore();
-  strMod.value = modifier(str.value);
+  strMod.innerHTML = modifier(str.value);
   dex.value = abilityScore();
-  dexMod.value = modifier(dex.value);
+  dexMod.innerHTML = modifier(dex.value);
   con.value = abilityScore();
-  conMod.value = modifier(con.value);
+  conMod.innerHTML = modifier(con.value);
   cha.value = abilityScore();
-  chaMod.value = modifier(cha.value);
+  chaMod.innerHTML = modifier(cha.value);
   intelligence.value = abilityScore();
-  intMod.value = modifier(intelligence.value);
+  intMod.innerHTML = modifier(intelligence.value);
   wis.value = abilityScore();
-  wisMod.value = modifier(wis.value);
+  wisMod.innerHTML = modifier(wis.value);
 
   //determine race trait
   determineRaceTrait(raceNum);
@@ -216,23 +282,23 @@ function determineClassInfo (classNum) {
     /*Wizard*/[0, 0, 2, 6] /*10*/
   ];
 
-  //Hit points 
-  hp.textContent = parseInt(classInfo2DArray[classNum-1][3]) + parseInt(conMod.value);
+  //Hit points
+  hp.textContent = parseInt(classInfo2DArray[classNum-1][3]) + parseInt(conMod.innerHTML);
   //fortitude
   fortClass.textContent = classInfo2DArray[classNum-1][0];
-  fortMod.textContent = conMod.value;
-  var fortTotalNum = parseInt(conMod.value) + parseInt(classInfo2DArray[classNum-1][0]);
+  fortMod.textContent = conMod.innerHTML;
+  var fortTotalNum = parseInt(conMod.innerHTML) + parseInt(classInfo2DArray[classNum-1][0]);
   fortTotal.textContent = fortTotalNum;
 
   //reflex
   refClass.textContent = classInfo2DArray[classNum-1][1];
-  refMod.textContent = dexMod.value;
-  var refTotalNum = parseInt(dexMod.value) + parseInt(classInfo2DArray[classNum-1][1]);
+  refMod.textContent = dexMod.innerHTML;
+  var refTotalNum = parseInt(dexMod.innerHTML) + parseInt(classInfo2DArray[classNum-1][1]);
   refTotal.textContent = refTotalNum;
 
   //will
   wilClass.textContent = classInfo2DArray[classNum-1][2];
-  wilMod.textContent = wisMod.value;
-  var wilTotalNum = parseInt(wisMod.value) + parseInt(classInfo2DArray[classNum-1][2]);
+  wilMod.textContent = wisMod.innerHTML;
+  var wilTotalNum = parseInt(wisMod.innerHTML) + parseInt(classInfo2DArray[classNum-1][2]);
   wilTotal.textContent = wilTotalNum
 }
