@@ -1,0 +1,15 @@
+{
+  "name": "RPGen-master",
+  "version": "1.0.0",
+  "description": "*** ### SRC for Role-Playing Game Full Character Sheet Generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "firebase-tools": "^3.6.1"
+  }
+}
