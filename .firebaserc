@@ -1,0 +1,7 @@
+{
+  "projects": {
+    "default": "icad-app",
+    "test": "icad-app",
+    "icad": "icad-app"
+  }
+}
