@@ -30,6 +30,10 @@ table input{
   text-align: center;
 }
 
+p.mod {
+  margin-left: 10%;
+}
+
 @media screen and (min-width: 530px){
   #title {
     text-align: left;
