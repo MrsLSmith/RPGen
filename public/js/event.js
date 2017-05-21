@@ -54,14 +54,14 @@ function save() {
                  document.getElementById('wis').value,
                  document.getElementById('cha').value],
     modifiers: ["1:strMOD 2:dexMOD 3:conMOD 4:intMOD 5:wisMOD 6:chaMOD",
-                document.getElementById('strMod').value,
-                document.getElementById('dexMod').value,
-                document.getElementById('conMod').value,
-                document.getElementById('intMod').value,
-                document.getElementById('wisMod').value,
-                document.getElementById('chaMod').value],
+                document.getElementById('strMod').innerHTML,
+                document.getElementById('dexMod').innerHTML,
+                document.getElementById('conMod').innerHTML,
+                document.getElementById('intMod').innerHTML,
+                document.getElementById('wisMod').innerHTML,
+                document.getElementById('chaMod').innerHTML]
 
-    classInfo: " ",        //determined based on class
+    //classInfo: " ",        //determined based on class
   };
 
   var firebaseRef = firebase.database().ref();
@@ -94,7 +94,6 @@ function pdf(char) {
       doc.text(120, 90, 'Ability Modifier', null, null, 'center');
   doc.text(40, 100, 'Strength', null, null, 'center');
     doc.text(80, 100, char.attributes[1], null, null, 'center');
-      doc.text(120, 100, char.modifiers[1], null, null, 'center');
   doc.text(40, 110, 'Dexterity', null, null, 'center');
 
   doc.text(40, 120, 'Constitution', null, null, 'center');
