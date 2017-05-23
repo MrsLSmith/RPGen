@@ -4,9 +4,9 @@
 
 Here is the deployed app so far: https://tiny.cc/rpgen
 
-Build Version Eta 0.1.8:
+Build Version Epsilon 0.1.9:
 
-![](http://i.imgur.com/R9r9Q8B.gif)
+![](http://i.imgur.com/FDS0OwO.gif)
 
 1. To-Do
 * D&D Sheet
