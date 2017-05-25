@@ -10,5 +10,6 @@
       "type": "image/png"
     }
   ],
-  "orientation": "portrait"
+  "orientation": "portrait",
+  "start_url": "index.html?launcher=true"
 }
