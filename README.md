@@ -4,9 +4,10 @@
 
 Here is the deployed app so far: https://tiny.cc/rpgen
 
-Build Version Epsilon 0.1.9:
+WE'RE IN PRE-ALPHA! BASIC APP FUNCTIONS ARE WORKING CORRECTLY.
+Pre-Alpha 0.2.0:
 
-![](http://i.imgur.com/FDS0OwO.gif)
+![](http://i.imgur.com/9kzk5Og.gif)
 
 1. To-Do
 * D&D Sheet
