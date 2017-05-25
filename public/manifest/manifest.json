@@ -1,0 +1,14 @@
+{
+  "background_color": "#ffffff",
+  "name": "RPGen",
+  "short_name": "RPGen",
+  "display": "fullscreen",
+  "icons": [
+    {
+      "src": "ITSTIMETOSTOP.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    }
+  ],
+  "orientation": "portrait"
+}
