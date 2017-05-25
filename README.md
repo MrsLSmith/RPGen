@@ -12,6 +12,7 @@ Pre-Alpha 0.2.0:
 1. To-Do
 * D&D Sheet
 * Generic d6 sheet
+* added service worker
 
 2. Done:
 * Basic page styling
@@ -22,6 +23,7 @@ Pre-Alpha 0.2.0:
 * functioning MVP (Minimum Viable Product)
 * .js addition
 * Sheet renderer
+* added manifest.json
 
 ***
 
