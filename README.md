@@ -2,19 +2,16 @@
 ***
 ### SRC for Role-Playing Game Full Character Sheet Generator
 
-Here is the deployed app so far: https://tiny.cc/rpgen
+Here is the deployed app: https://tiny.cc/rpgen
 
-WE'RE IN PRE-ALPHA! BASIC APP FUNCTIONS ARE WORKING CORRECTLY.
-Pre-Alpha 0.2.0:
-
-![](http://i.imgur.com/9kzk5Og.gif)
+## Public Alpha 0.2.1
 
 1. To-Do
 * D&D Sheet
 * Generic d6 sheet
-* added service worker
 
 2. Done:
+* added service worker
 * Basic page styling
 * Basic code files & folders
 * Start page
