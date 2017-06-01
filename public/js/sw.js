@@ -2,17 +2,20 @@ this.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open('v1').then(function(cache) {
       return cache.addAll([
-        '/public/',
-        '/public/index.html',
-        '/public/css/main.css',
-        '/public/js/event.js',
+        '/ /',
+        '/index.html',
+        '/pathfinder.html',
+        '/css/pathfinder.css',
+        '/js/pathfinder.js',
+        '/css/main.css',
+        '/js/event.js',
       ]);
     })
   );
 });
 
 if ('serviceWorker' in navigator) {
-  navigator.serviceWorker.register('/public/js/sw.js')
+  navigator.serviceWorker.register('/sw.js')
   .then(function(reg) {
     // registration worked
     console.log('Registration succeeded. Scope is ');
@@ -21,4 +24,11 @@ if ('serviceWorker' in navigator) {
     console.log('Registration failed with ' + error);
   });
 }
- 
+
+this.addEventListener('fetch', function(event) {
+  event.respondWith(
+    caches.match(event.request).then(function(response) {
+      return response || fetch(event.request);
+    })
+  );
+});
