@@ -9,6 +9,8 @@ Here is the deployed app: https://tiny.cc/rpgen
 1. To-Do
 * D&D Sheet
 * Generic d6 sheet
+* pulling data from database
+* linking usernames and emails onto firebase database.
 
 2. Done:
 * added service worker
